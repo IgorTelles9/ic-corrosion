@@ -10,6 +10,7 @@ Eu usei WSL como terminal, mas acredito que o terminal do vscode funcione tão b
 npm i
 ```
 para instalar as dependências. 
+
 2. Vá no arquivo `src/server.ts` e mude a variável `dbName` para o nome do seu banco, definido no mongodb. 
 
 3. Execute 
@@ -18,6 +19,7 @@ npm start
 ```
 no terminal. Se o seu mongo estiver ligado, o servidor deve começar a executar. 
 
+---
 
 ### Web 
 1. Acesse a pasta `web` e na linha de comando execute 
