@@ -44,7 +44,7 @@ const App = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3000/images', {
+      const response = await fetch('http://localhost:3001/images', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
